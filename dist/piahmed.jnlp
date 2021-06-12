@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="piahmed.jnlp">
+  <information>
+    <title>piahmed</title>
+    <vendor>Msi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\core-1.7.jar" size="369194" download="eager" />
+    <jar href="lib\itextpdf-5.5.9.jar" size="2287148" download="eager" />
+    <jar href="lib\javax.mail.jar" size="434923" download="eager" />
+    <jar href="lib\jfoenix-8.0.10.jar" size="2710207" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.23.jar" size="2415211" download="eager" />
+    <jar href="lib\qrgen-1.2.jar" size="5245" download="eager" />
+    <jar href="lib\twilio-8.0.0-jar-with-dependencies.jar" size="7915824" download="eager" />
+    <jar href="lib\zxing-1.7-javase.jar" size="22002" download="eager" />
+    <jar href="lib\zxing-j2se-1.7.jar" size="22051" download="eager" />
+    <jar href="piahmed.jar" size="1567312" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="piahmed" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="piahmed.Piahmed"  name="piahmed" />
+  <update check="always"/>
+</jnlp>

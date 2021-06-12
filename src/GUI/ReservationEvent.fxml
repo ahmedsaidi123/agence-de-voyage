@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ReservationEventController">
+   <children>
+      <TableView fx:id="tabevent" layoutX="24.0" layoutY="344.0" onMouseClicked="#SetValue" prefHeight="288.0" prefWidth="424.0">
+         <columns>
+            <TableColumn fx:id="colnomev" prefWidth="75.0" text="nom" />
+            <TableColumn fx:id="coldestev" prefWidth="111.20001220703125" text="destination" />
+            <TableColumn fx:id="colprixev" prefWidth="81.60005187988281" text="prix" />
+            <TableColumn fx:id="colnbrev" prefWidth="152.7999755859375" text="nbrplace" />
+         </columns>
+      </TableView>
+      <Button layoutX="210.0" layoutY="230.0" mnemonicParsing="false" onAction="#Reserver" text="Reserver" />
+      <ImageView fx:id="imagefront" fitHeight="150.0" fitWidth="200.0" layoutX="147.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
